@@ -37,7 +37,7 @@ jobs:
       - name: Run Safety scan for dependencies
         run: |
           pip install safety
-          safety check -i
+          safety check
 
       # Linting with Flake8 (to enforce code quality best practices)
       - name: Lint code with Flake8
