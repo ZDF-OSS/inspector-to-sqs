@@ -6,9 +6,9 @@ import datetime
 from botocore.exceptions import ClientError
 
 # Initialize the InspectorV2 client
-inspector_client = boto3.client('inspector2')
+inspector_client = boto3.client('inspector2', region_name='eu-central-1')
 # Initialize SQS client
-sqs = boto3.client('sqs')
+sqs = boto3.client('sqs', region_name='eu-central-1')
 
 
 def load_config():
