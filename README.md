@@ -20,7 +20,7 @@ This project provides a Python script that retrieves AWS Inspector V2 findings a
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo/aws-inspector-sqs.git
+   git clone https://github.com/ZDF-OSS/aws-inspector-sqs.git
    cd aws-inspector-sqs
    ```
 
