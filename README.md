@@ -24,12 +24,7 @@ This project provides a Python script that retrieves AWS Inspector V2 findings a
    cd aws-inspector-sqs
    ```
 
-2. **Install required dependencies**:
-   ```bash
-   pip install -r requirements
-   ```
-
-3. **Create a local configuration file**:
+2. **Create a local configuration file**:
    Create a `config.json` file in the root directory of the project. This file should be excluded from version control by ensuring it is listed in the `.gitignore` file.
 
    Example `config.json`:
@@ -42,9 +37,16 @@ This project provides a Python script that retrieves AWS Inspector V2 findings a
    }
    ```
 
-4. **AWS Configuration**:
+3. **AWS Configuration**:
    Ensure that your AWS credentials are set up, either through environment variables, an AWS credentials file, or an instance profile (if running on EC2).
 
+4. **Start scanning**:
+   Type in the console 'make start'
+
+4. **Manual: Install required dependencies**:
+   ```bash
+   pip install -r requirements
+   ```
 ## Configuration
 
 The configuration file (`config.json`) allows you to specify:

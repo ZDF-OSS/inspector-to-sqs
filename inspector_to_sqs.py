@@ -69,6 +69,9 @@ def get_findings(config):
                     ],
                     'resourceType': [
                         {'comparison': 'EQUALS', 'value': rt} for rt in config['resourceType']
+                    ],
+                    'findingStatus': [
+                        {'comparison': 'EQUALS', 'value': 'ACTIVE'}
                     ]
                 }
             }
