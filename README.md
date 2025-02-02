@@ -14,7 +14,6 @@ This project provides a Python script that retrieves AWS Inspector V2 findings a
 
 - Python 3.x
 - AWS credentials with sufficient permissions to access AWS Inspector V2 and SQS.
-- `boto3` library installed (`pip install boto3`).
 
 ## Setup
 
